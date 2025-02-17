@@ -80,6 +80,20 @@ p{
    button{
     padding: 1em 2em;
    }
+
+   .main{
+    background-image: url(/images/jeswin-thomas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
+   .main-body{
+    text-align: center;
+   }
+
+   .img2{
+    display: none;
+   }
 }
 
 @media (max-width: 400px) {
