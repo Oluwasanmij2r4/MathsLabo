@@ -92,7 +92,8 @@ p{
     }
 
     img2{
-        max-height: 900px;
+        width: 800px;
+        height: 100%;
     }
 }
 
@@ -103,7 +104,7 @@ p{
    }
 
    .main{
-    background-image: url(/images/jeswin-thomas.jpg);
+    background-image: url(../images/jeswin-thomas.jpg);
     background-size: cover;
     background-repeat: no-repeat;
    }
