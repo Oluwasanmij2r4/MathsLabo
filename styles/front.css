@@ -42,6 +42,7 @@ button:focus, button:hover{
 .main{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .main-body{
