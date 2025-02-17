@@ -82,7 +82,7 @@ p{
    }
 
    .main{
-    background-image: url(/images/jeswin-thomas.jpg);
+    background-image: url(./images/jeswin-thomas.jpg);
     background-size: cover;
     background-repeat: no-repeat;
    }
