@@ -101,6 +101,7 @@ p{
 @media (max-width: 550px) {
    button{
     padding: 1em 2em;
+    z-index: 2;
    }
 
    .main{
