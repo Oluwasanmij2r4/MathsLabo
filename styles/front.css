@@ -113,10 +113,11 @@ p{
 
    .overlay {
   position: absolute;
-  top: 20%;
+  top: 20vh;
   left: 0;
+  bottom: 50%;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   background-color: rgba(255, 255, 255, 0.75);
   z-index: 1;
 }
