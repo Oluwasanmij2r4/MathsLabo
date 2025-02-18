@@ -35,10 +35,31 @@ body{
     color: white;
     text-transform: uppercase;
     font-weight: 500;
-
 }
 
 .card{
     max-width: 30px;
     background-color: white;
+}
+
+.line{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2em 0;
+}
+
+hr{
+    flex-grow: 1;
+    height: 2px;
+    border: none;
+    background-color: rgb(194, 192, 192);
+    /* flex: 1; */
+}
+
+.text{
+    width: auto;
+    text-align: center;
 }
