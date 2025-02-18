@@ -105,16 +105,24 @@ p{
 
    .main{
     background: url(../images/jeswin-thomas.jpg);
-    background-color: rgba(189, 210, 250, 0.404);
-    background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
    }
-   
+
+   .overlay {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.75);
+  z-index: 1;
+}
    .main-body{
     text-align: center;
+    z-index: 2;
    }
 
    .img2{
