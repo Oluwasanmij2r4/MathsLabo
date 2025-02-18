@@ -109,10 +109,12 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255,0.75);
     min-height: 100vh;
    }
 
-   .overlay {
+   /* .overlay {
   position: absolute;
   top: 20vh;
   left: 0;
@@ -121,10 +123,10 @@ p{
   height: 100vh;
   background-color: rgba(255, 255, 255, 0.75);
   z-index: 1;
-}
+} */
    .main-body{
     text-align: center;
-    z-index: 2;
+    /* z-index: 2; */
    }
 
    .img2{
