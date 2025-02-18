@@ -107,6 +107,7 @@ p{
     background-image: url(../images/jeswin-thomas.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 100vh;
    }
 
    .main-body{
@@ -115,6 +116,10 @@ p{
 
    .img2{
     display: none;
+   }
+
+   .btn{
+    padding: 2em 5em;
    }
 }
 
