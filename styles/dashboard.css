@@ -16,6 +16,7 @@ body{
     background-color: rgba(248, 248, 248, 0.562);
     padding: 1em;
     border-bottom:2px solid #054bb4;
+    height: 18vh;
 }
 
 .navbar{
@@ -60,10 +61,28 @@ textarea{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 82vh;
     background-color: rgb(240, 240, 240);
 }
 
 .main{
     width: 80%;
+}
+
+.butons{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    padding: 1em 2em;
+    font-size: 1.25em;
+    color: white;
+    background-color: #054bb4;
+    font-weight: 800;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 1em;
+    margin-right: 1em;
+    cursor: pointer;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
