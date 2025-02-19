@@ -8,14 +8,12 @@
 }
 
 body{
-    background-color: #ffffff67;
+    background-color: #fff;
     font-family: "Roboto", serif;
-    background-image: url(../images/jeswin-thomas.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100% 100vh;
-    background-position: center;
-    background-blend-mode: lighten;
+}
+
+.wrapper{
+    background-color: #d3d3d3;
     display: flex;
     align-items: center;
     justify-content: center;
