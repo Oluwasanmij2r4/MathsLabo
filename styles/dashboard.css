@@ -47,6 +47,15 @@ body{
     font-style: italic;
 }
 
+.question{
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio-button{
+    display: flex;
+    justify-content: space-between;
+}
 
 textarea{
     width: 100%;

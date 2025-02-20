@@ -27,7 +27,30 @@
     <section class="wrapper">
       <div class="main">
         <div>
-          <h1>Question</h1>
+          <div class="question">
+            <div>
+              <h1>Question</h1>
+            </div>
+            <div>
+              <div><h2>Difficulty:</h2></div>
+
+              <div class="radio-button">
+                <div>
+                  <input type="radio" id="child" name="difficulty" value="easy" />
+                  <label for="child">Easy</label>
+                </div>
+                <div>
+                  <input type="radio" id="adult" name="difficulty" value="normal" />
+                  <label for="adult">Normal</label>
+                </div>
+                <div>
+                  <input type="radio" id="senior" name="difficulty" value="difficult" />
+                  <label for="senior">Difficult</label>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <textarea name="text">Find the sum of five and six.</textarea>
         </div>
         <div>
@@ -36,8 +59,8 @@
         </div>
         <div class="butons">
           <div>
-              <button>Next Question</button>
-              <button>Submit</button>
+            <button>Next Question</button>
+            <button>Submit</button>
           </div>
 
           <div>
