@@ -1,114 +1,162 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: #fff;
-    font-family: "Roboto", serif;
+body {
+  font-family: "DM Sans", sans-serif;
+  min-height: 100vh;
+  background-color: #0057b371;
+  background-image: url("/images/robot-with-tablet-.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
 }
 
-.container{
-    width: 50%;
-    margin: 0 auto;
+.register-container {
+  width: 80%;
+  max-width: 1200px;
 }
 
-.logo{
-    padding: 1em 0;
-    display: flex;
-    justify-content: center;
+.register-wrapper {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  padding: 2rem 4rem;
+  display: grid;
+  grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+  gap: 20px;
 }
 
-.google-signup{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1em;
-    background-color: #4387ee;
-    width: 100%;
-    margin: 0 auto;
-    padding: 1em;
-    text-transform: uppercase;
-    font-weight: 500;
+.header {
+  background-image: url(/images/3d-render-.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
-.google-signup a{
-    text-decoration: none;
-    color: white;
+.header h2 {
+  color: #269dfe;
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
-.card{
-    max-width: 30px;
-    background-color: white;
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
 }
 
-.line{
-    display: flex;
-    gap: 1em;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 2em 0 1em 0;
+legend {
+  font-size: 2rem;
+  font-weight: 500;
 }
 
-hr{
-    flex-grow: 1;
-    height: 2px;
-    border: none;
-    background-color: rgb(194, 192, 192);
+form p {
+  margin: 1.5rem 0;
 }
 
-.text{
-    width: auto;
-    text-align: center;
+fieldset {
+  border: none;
 }
 
-fieldset{
-    border: none;
+.contact {
+  display: flex;
+  gap: 10px;
 }
 
-input{
-    width: 100%;
-    padding: 1.5em 2em;
-    margin: 1em 0;
-    cursor: text;
-    background-color: #f8f8f8;
-    border: 1px solid #d3d3d3;
+input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  color: rgba(0, 0, 0, 0.582);
+  font-weight: 600;
+  font-size: 1rem;
 }
 
-.contact{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1em;
+input::placeholder {
+  color: rgba(0, 0, 0, 0.582);
+  font-weight: 600;
+  font-size: 1rem;
 }
 
-.sign{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1em 0 2em 0;
+input:hover {
+  border: 2px solid #269dfe;
 }
 
-button{
-    background-color: #054bb4;
-    padding: 1em 5em;
-    color: #fff;
-    font-weight: 800;
-    border: 1px solid #054bb4;
-    border-radius: .5em;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.sign p {
+  text-align: center;
 }
 
-button:hover{
-    opacity: .9;
+button {
+  width: 100%;
+  font-size: 1rem;
+  background-color: #269dfe;
+  border: 1px solid #269dfe;
+  border-radius: 8px;
+  padding: 12px;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 900;
+  cursor: pointer;
+  margin: 0.5rem 0 2rem 0;
 }
 
-.footer{
-    text-align: center;
-    margin: 2em 0;
+button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #269dfe;
+}
+
+.line {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.seperator {
+  flex-grow: 1;
+  height: 2.5px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.445);
+}
+
+.line p {
+  white-space: nowrap;
+  padding: 0 10px;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.signup:hover {
+  border: 2px solid #269dfe;
+}
+
+i {
+  color: rgb(16, 16, 143);
+}
+
+.signup a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-weight: 900;
 }
