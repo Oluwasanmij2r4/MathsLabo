@@ -71,21 +71,21 @@ input:hover {
     justify-content: center;
 }
 
-button{
-     width: 50%;
-  font-size: 1rem;
-  background-color: #269dfe;
-  border: 1px solid #269dfe;
-  margin-bottom: 2rem;
-  border-radius: 8px;
-  padding: 1.25rem;
+a{
+  width: 50%;
+  text-align: center;
   color: rgba(255, 255, 255, 0.9);
+  background-color: #269dfe;
   font-weight: 900;
   cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 1.5rem;
+  padding: 1.25rem;
+  border-radius: 8px;
+  text-decoration: none;
+  border: 1px solid #269dfe;
 }
 
-button:hover {
+a:hover {
   background-color: rgba(255, 255, 255, 0.9);
   color: #269dfe;
 }
